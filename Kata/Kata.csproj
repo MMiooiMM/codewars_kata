@@ -65,6 +65,7 @@
     <Compile Include="6kyu\Build_a_pile_of_Cubes.cs" />
     <Compile Include="6kyu\Buying_a_car.cs" />
     <Compile Include="6kyu\Calculate_number_of_inversions_in_array.cs" />
+    <Compile Include="6kyu\Catalog.cs" />
     <Compile Include="6kyu\Convert_string_to_camel_case.cs" />
     <Compile Include="6kyu\Counting_Duplicates.cs" />
     <Compile Include="6kyu\Detect_Pangram.cs" />
