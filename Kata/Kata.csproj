@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,11 +42,96 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="4kyu\Connect_Four.cs" />
+    <Compile Include="4kyu\Conways_Game_of_Life_Unlimited_Edition.cs" />
+    <Compile Include="4kyu\Factorial_tail.cs" />
+    <Compile Include="4kyu\Large_Factorials.cs" />
+    <Compile Include="4kyu\Magnet_particules_in_boxes.cs" />
+    <Compile Include="4kyu\Strings_Mix.cs" />
+    <Compile Include="4kyu\Sudoku_Solution_Validator.cs" />
+    <Compile Include="4kyu\Sum_by_Factors.cs" />
+    <Compile Include="4kyu\Total_increasing_or_decreasing_numbers_up_to_a_power_of_10.cs" />
+    <Compile Include="5kyu\Basic_Nico_variation.cs" />
+    <Compile Include="5kyu\Can_you_get_the_loop.cs" />
+    <Compile Include="5kyu\Compute_the_Largest_Sum_of_all_Contiguous_Subsequences.cs" />
+    <Compile Include="5kyu\Gap_in_Primes.cs" />
+    <Compile Include="5kyu\Hamster_me.cs" />
+    <Compile Include="5kyu\Integers_Recreation_One.cs" />
+    <Compile Include="5kyu\PaginationHelper.cs" />
+    <Compile Include="5kyu\Rot13.cs" />
+    <Compile Include="5kyu\Valid_Parentheses.cs" />
+    <Compile Include="6kyu\Are_we_alternate.cs" />
+    <Compile Include="6kyu\Bouncing_Balls.cs" />
+    <Compile Include="6kyu\Build_a_pile_of_Cubes.cs" />
+    <Compile Include="6kyu\Buying_a_car.cs" />
+    <Compile Include="6kyu\Calculate_number_of_inversions_in_array.cs" />
+    <Compile Include="6kyu\Convert_string_to_camel_case.cs" />
+    <Compile Include="6kyu\Counting_Duplicates.cs" />
+    <Compile Include="6kyu\Detect_Pangram.cs" />
+    <Compile Include="6kyu\Duplicate_Encoder.cs" />
+    <Compile Include="6kyu\Equal_Sides_Of_An_Array.cs" />
+    <Compile Include="6kyu\Find_The_Parity_Outlier.cs" />
+    <Compile Include="6kyu\Grill_it.cs" />
+    <Compile Include="6kyu\IQ_Test.cs" />
+    <Compile Include="6kyu\Ka_Ka_Ka_cypher_words_only_vol_1.cs" />
+    <Compile Include="6kyu\Length_of_missing_array.cs" />
+    <Compile Include="6kyu\Matrix_Addition.cs" />
+    <Compile Include="6kyu\Mr_Safetys_treasures.cs" />
+    <Compile Include="6kyu\Multiples_of_3_or_5.cs" />
+    <Compile Include="6kyu\Persistent_Bugger.cs" />
+    <Compile Include="6kyu\Playing_with_digits.cs" />
+    <Compile Include="6kyu\Rectangle_into_Squares.cs" />
+    <Compile Include="6kyu\Reverse_or_rotate.cs" />
+    <Compile Include="6kyu\Roman_Numerals_Decoder.cs" />
+    <Compile Include="6kyu\Round_and_Round.cs" />
+    <Compile Include="6kyu\Sort_the_odd.cs" />
+    <Compile Include="6kyu\Srot_the_inner_ctonnet_in_dsnnieedcg_oredr.cs" />
+    <Compile Include="6kyu\String_average.cs" />
+    <Compile Include="6kyu\The_Supermarket_Queue.cs" />
+    <Compile Include="6kyu\Valid_Braces.cs" />
+    <Compile Include="6kyu\Vasya_Clerk.cs" />
+    <Compile Include="6kyu\Which_are_in.cs" />
+    <Compile Include="7kyu\Anagram_Detection.cs" />
+    <Compile Include="7kyu\Averages_of_numbers.cs" />
+    <Compile Include="7kyu\Building_Strings_From_a_Hash.cs" />
+    <Compile Include="7kyu\Convert_a_linked_list_to_a_string.cs" />
+    <Compile Include="7kyu\Count_all_the_sheep_on_farm_in_the_heights_of_New_Zealand.cs" />
+    <Compile Include="7kyu\Credit_Card_Mask.cs" />
+    <Compile Include="7kyu\Factorial.cs" />
+    <Compile Include="7kyu\Find_divisors_of_a_number.cs" />
+    <Compile Include="7kyu\Folding_your_way_to_the_moon.cs" />
+    <Compile Include="7kyu\Friend_or_Foe.cs" />
+    <Compile Include="7kyu\Growth_of_a_Population.cs" />
+    <Compile Include="7kyu\Hands_Up.cs" />
+    <Compile Include="7kyu\Is_this_a_triangle.cs" />
+    <Compile Include="7kyu\Largest_5_digit_number_in_a_series.cs" />
+    <Compile Include="7kyu\Number_of_People_in_the_Bus.cs" />
+    <Compile Include="7kyu\Odd_or_Even.cs" />
+    <Compile Include="7kyu\Partial_Word_Searching.cs" />
+    <Compile Include="7kyu\Reverse_a_Number.cs" />
+    <Compile Include="7kyu\Reverse_words.cs" />
+    <Compile Include="7kyu\Simple_Fun_2_Circle_of_Numbers.cs" />
+    <Compile Include="7kyu\Sum_of_Odd_Cubed_Numbers.cs" />
+    <Compile Include="7kyu\Sum_of_two_lowest_positive_integers.cs" />
+    <Compile Include="8kyu\Basic_Mathematical_Operations.cs" />
+    <Compile Include="8kyu\Convert_a_Boolean_to_a_String.cs" />
+    <Compile Include="8kyu\Convert_number_to_reversed_array_of_digits.cs" />
+    <Compile Include="8kyu\Correct_the_mistakes_of_the_character_recognition_software.cs" />
+    <Compile Include="8kyu\Do_I_get_a_bonus.cs" />
+    <Compile Include="8kyu\Duck_Duck_Goose.cs" />
+    <Compile Include="8kyu\Multiply.cs" />
+    <Compile Include="8kyu\Remove_String_Spaces.cs" />
+    <Compile Include="8kyu\repeatIt.cs" />
+    <Compile Include="8kyu\The_if_function.cs" />
+    <Compile Include="8kyu\Total_amount_of_points.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="3kyu\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

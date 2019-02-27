@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Kata._4kyu;
+using Kata._5kyu;
+using Kata._6kyu;
+using Kata._7kyu;
+using Kata._8kyu;
 
 namespace Kata
 {
