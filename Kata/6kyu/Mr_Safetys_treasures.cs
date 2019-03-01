@@ -22,7 +22,7 @@ namespace Kata._6kyu
 
     }
 
-    public static class Clever
+    public static class Mr_Safetys_treasures_Clever
     {
         public static string Unlock(string str)
         {

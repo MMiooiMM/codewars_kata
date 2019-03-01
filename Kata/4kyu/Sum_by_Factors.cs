@@ -40,7 +40,7 @@ namespace Kata._4kyu
         }
     }
 
-    public static class Best_Practices
+    public static class Sum_by_Factors_Best_Practices
     {
         public static string sumOfDivided(int[] l)
         {
