@@ -11,13 +11,15 @@ namespace Kata._5kyu
     {
         public static int TrailingZeros(int n)
         {
-            return Enumerable.Range(1, n).Where(x => x % 5 == 0).Select(x => Division(x, 5)).Sum();
-        }
-        public static int Division(int number, int div)
-        {
-            if (number % div == 0)
-                return 1 + Division(number / div, div);
-            return 0;
+            var max5 = Math.Log(n, 5);
+            var count = 0;
+            var numbers = Enumerable.Range(1, n);
+            for (int i = 1; i <= max5; i++)
+            {
+                numbers = numbers.Where(x => x % Math.Pow(5, i) == 0);
+                count += numbers.Count();
+            }
+            return count;
         }
     }
 }
