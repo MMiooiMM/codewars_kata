@@ -11,14 +11,9 @@ namespace Kata._5kyu
     {
         public static int TrailingZeros(int n)
         {
-            var max5 = Math.Log(n, 5);
-            var count = 0;
-            var numbers = Enumerable.Range(1, n);
-            for (int i = 1; i <= max5; i++)
-            {
-                numbers = numbers.Where(x => x % Math.Pow(5, i) == 0);
-                count += numbers.Count();
-            }
+            int count = 0;
+            while (n > 1)            
+                count += (int)(n /= 5);            
             return count;
         }
     }
