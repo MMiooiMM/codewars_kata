@@ -58,6 +58,7 @@
     <Compile Include="5kyu\Hamster_me.cs" />
     <Compile Include="5kyu\Integers_Recreation_One.cs" />
     <Compile Include="5kyu\Matching_And_Substituting.cs" />
+    <Compile Include="5kyu\Number_of_trailing_zeros_of_N.cs" />
     <Compile Include="5kyu\PaginationHelper.cs" />
     <Compile Include="5kyu\Rot13.cs" />
     <Compile Include="5kyu\Valid_Parentheses.cs" />
