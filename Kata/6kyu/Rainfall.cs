@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Kata._6kyu
 {
+    //https://www.codewars.com/kata/56a32dd6e4f4748cc3000006
     public static class Rainfall
     {
         public static double Mean(string town, string strng)
