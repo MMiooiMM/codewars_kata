@@ -84,6 +84,7 @@
     <Compile Include="6kyu\Multiples_of_3_or_5.cs" />
     <Compile Include="6kyu\Persistent_Bugger.cs" />
     <Compile Include="6kyu\Playing_with_digits.cs" />
+    <Compile Include="6kyu\Rainfall.cs" />
     <Compile Include="6kyu\Rectangle_into_Squares.cs" />
     <Compile Include="6kyu\Reverse_or_rotate.cs" />
     <Compile Include="6kyu\Roman_Numerals_Decoder.cs" />
