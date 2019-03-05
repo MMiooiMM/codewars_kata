@@ -116,6 +116,7 @@
     <Compile Include="7kyu\Reverse_a_Number.cs" />
     <Compile Include="7kyu\Reverse_words.cs" />
     <Compile Include="7kyu\Simple_Fun_2_Circle_of_Numbers.cs" />
+    <Compile Include="7kyu\Speed_Control.cs" />
     <Compile Include="7kyu\Sum_of_Odd_Cubed_Numbers.cs" />
     <Compile Include="7kyu\Sum_of_two_lowest_positive_integers.cs" />
     <Compile Include="8kyu\Basic_Mathematical_Operations.cs" />

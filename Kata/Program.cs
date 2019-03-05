@@ -10,7 +10,7 @@ namespace Kata
     {
         static void Main(string[] args)
         {
-            var a = Number_of_trailing_zeros_of_N.TrailingZeros(531);
+            var a = Speed_Control.Gps(20, new double[] { 0.0, 0.23, 0.46, 0.69, 0.92, 1.15, 1.38, 1.61 });
         }
     }
 }
