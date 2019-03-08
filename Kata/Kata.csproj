@@ -58,6 +58,7 @@
     <Compile Include="5kyu\Gap_in_Primes.cs" />
     <Compile Include="5kyu\Hamster_me.cs" />
     <Compile Include="5kyu\Integers_Recreation_One.cs" />
+    <Compile Include="5kyu\k_Primes.cs" />
     <Compile Include="5kyu\Matching_And_Substituting.cs" />
     <Compile Include="5kyu\Number_of_trailing_zeros_of_N.cs" />
     <Compile Include="5kyu\PaginationHelper.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="6kyu\Srot_the_inner_ctonnet_in_dsnnieedcg_oredr.cs" />
     <Compile Include="6kyu\String_average.cs" />
     <Compile Include="6kyu\The_Supermarket_Queue.cs" />
+    <Compile Include="6kyu\Tortoise_racing.cs" />
     <Compile Include="6kyu\Tribonacci_Sequence.cs" />
     <Compile Include="6kyu\Valid_Braces.cs" />
     <Compile Include="6kyu\Vasya_Clerk.cs" />
