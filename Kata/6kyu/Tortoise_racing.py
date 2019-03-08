@@ -19,6 +19,8 @@ def race(v1, v2, g):
     return [h, m, math.floor(time)]
 
 
-print(race(720, 850, 70))  # [0, 32, 18]
-print(race(80, 91, 37))  # [3, 21, 49]
-print(race(80, 100, 40))  # [2, 0, 0]
+def race_best_practices(v1, v2, g):
+    if v1 > v2:
+        return None
+    res = g*3600/(v2-v1)
+    return [res/3600, res % 3600/60, res % 60]
