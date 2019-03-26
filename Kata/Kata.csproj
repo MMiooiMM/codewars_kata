@@ -63,7 +63,9 @@
     <Compile Include="5kyu\Number_of_trailing_zeros_of_N.cs" />
     <Compile Include="5kyu\PaginationHelper.cs" />
     <Compile Include="5kyu\Rot13.cs" />
+    <Compile Include="5kyu\Simple_Fun_Runners_Meetings.cs" />
     <Compile Include="5kyu\Valid_Parentheses.cs" />
+    <Compile Include="6kyu\Are_they_the_same.cs" />
     <Compile Include="6kyu\Are_we_alternate.cs" />
     <Compile Include="6kyu\A_Rule_of_Divisibility_by_13.cs" />
     <Compile Include="6kyu\Bouncing_Balls.cs" />
@@ -134,6 +136,7 @@
     <Compile Include="8kyu\repeatIt.cs" />
     <Compile Include="8kyu\The_if_function.cs" />
     <Compile Include="8kyu\Total_amount_of_points.cs" />
+    <Compile Include="Other\Prime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
