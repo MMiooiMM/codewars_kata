@@ -3,7 +3,7 @@
 namespace Kata._7kyu
 {
     //https://www.codewars.com/kata/54ff0d1f355cfd20e60001fc
-    public static class Factorial
+    public class Factorial
     {
         public static int _Factorial(int n)
         {

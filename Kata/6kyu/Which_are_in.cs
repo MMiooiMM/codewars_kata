@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/550554fd08b86f84fe000a58
-    public static class Which_are_in
+    public class Which_are_in
     {
         public static string[] inArray(string[] array1, string[] array2)
         {

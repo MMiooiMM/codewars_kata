@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/592c1dfb912f22055b000099
-    public static class Mr_Safetys_treasures
+    public class Mr_Safetys_treasures
     {
         public static string Unlock(string str)
         {
@@ -22,7 +22,7 @@ namespace Kata._6kyu
 
     }
 
-    public static class Mr_Safetys_treasures_Clever
+    public class Mr_Safetys_treasures_Clever
     {
         public static string Unlock(string str)
         {

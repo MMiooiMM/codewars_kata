@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/5552101f47fc5178b1000050
-    public static class Playing_with_digits
+    public class Playing_with_digits
     {
         public static long digPow(int n, int p)
         {

@@ -1,7 +1,7 @@
 ﻿namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/514b92a657cdc65150000006
-    public static class Multiples_of_3_or_5
+    public class Multiples_of_3_or_5
     {
         public static int Solution(int value)
         {

@@ -6,7 +6,7 @@ using System;
 namespace Kata._4kyu
 {
     //https://www.codewars.com/kata/54d496788776e49e6b00052f
-    public static class Sum_by_Factors
+    public class Sum_by_Factors
     {
         public static string sumOfDivided(int[] lst)
         {
@@ -40,7 +40,7 @@ namespace Kata._4kyu
         }
     }
 
-    public static class Sum_by_Factors_Best_Practices
+    public class Sum_by_Factors_Best_Practices
     {
         public static string sumOfDivided(int[] l)
         {

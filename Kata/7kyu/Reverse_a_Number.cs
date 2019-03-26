@@ -1,7 +1,7 @@
 ﻿namespace Kata._7kyu
 {
     //https://www.codewars.com/kata/555bfd6f9f9f52680f0000c5
-    public static class Reverse_a_Number
+    public class Reverse_a_Number
     {
         public static int ReverseNumber(int n)
         {

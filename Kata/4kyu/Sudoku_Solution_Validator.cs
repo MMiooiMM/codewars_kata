@@ -3,7 +3,7 @@
 namespace Kata._4kyu
 {
     //https://www.codewars.com/kata/529bf0e9bdf7657179000008
-    public static class Sudoku_Solution_Validator
+    public class Sudoku_Solution_Validator
     {
         public static bool ValidateSolution(int[][] board)
         {
@@ -42,7 +42,7 @@ namespace Kata._4kyu
         }
     }
 
-    public static class Clever
+    public class Clever
     {
         public static bool ValidateSolution(int[][] board)
         {

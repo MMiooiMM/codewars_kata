@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Kata._6kyu
 {
-    public static class A_Rule_of_Divisibility_by_13
+    public class A_Rule_of_Divisibility_by_13
     {
         public static long Thirt(long n)
         {
@@ -26,7 +26,7 @@ namespace Kata._6kyu
         }
     }
 
-    public static class A_Rule_of_Divisibility_by_13_Best_Practices
+    public class A_Rule_of_Divisibility_by_13_Best_Practices
     {
         public static long Thirt(long n)
         {
@@ -43,7 +43,7 @@ namespace Kata._6kyu
         }
     }
 
-    public static class A_Rule_of_Divisibility_by_13_Clever
+    public class A_Rule_of_Divisibility_by_13_Clever
     {
         public static int[] rl = new int[] { 1, 10, 9, 12, 3, 4 };
         public static long Thirt(long n)

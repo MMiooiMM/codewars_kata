@@ -5,7 +5,7 @@ using System.Linq;
 namespace Kata._5kyu
 {
     //https://www.codewars.com/kata/5968bb83c307f0bb86000015
-    public static class Basic_Nico_variation
+    public class Basic_Nico_variation
     {
         public static string Nico(string key, string message)
         {

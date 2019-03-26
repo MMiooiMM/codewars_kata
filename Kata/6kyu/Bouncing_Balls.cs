@@ -1,7 +1,7 @@
 ﻿namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/5544c7a5cb454edb3c000047
-    public static class Bouncing_Balls
+    public class Bouncing_Balls
     {
         public static int bouncingBall(double h, double bounce, double window)
         {

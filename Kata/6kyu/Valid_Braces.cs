@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/5277c8a221e209d3f6000b56
-    public static class Valid_Braces
+    public class Valid_Braces
     {
         public static bool validBraces(String braces)
         {

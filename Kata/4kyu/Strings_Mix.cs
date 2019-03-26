@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 namespace Kata._4kyu
 {
     //https://www.codewars.com/kata/5629db57620258aa9d000014
-    public static class Strings_Mix
+    public class Strings_Mix
     {
         public static string Mix(string s1, string s2)
         {

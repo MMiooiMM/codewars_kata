@@ -3,7 +3,7 @@
 namespace Kata._4kyu
 {
     //https://www.codewars.com/kata/56882731514ec3ec3d000009
-    public static class Connect_Four
+    public class Connect_Four
     {
         static string[,] piecesPositionArray;
         static bool IsWin;

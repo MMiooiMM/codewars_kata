@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/54b42f9314d9229fd6000d9c
-    public static class Duplicate_Encoder
+    public class Duplicate_Encoder
     {
         public static string DuplicateEncode(string word)
         {

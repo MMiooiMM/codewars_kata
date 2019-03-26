@@ -4,7 +4,7 @@ using System.Linq;
 namespace Kata._4kyu
 {
     //https://www.codewars.com/kata/55c4eb777e07c13528000021
-    public static class Factorial_tail
+    public class Factorial_tail
     {
         public static int zeroes(int b, int number)
         {

@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/517abf86da9663f1d2000003
-    public static class Convert_string_to_camel_case
+    public class Convert_string_to_camel_case
     {
         public static string ToCamelCase(string str)
         {

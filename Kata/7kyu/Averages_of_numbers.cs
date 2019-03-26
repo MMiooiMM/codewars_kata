@@ -1,7 +1,7 @@
 ﻿namespace Kata._7kyu
 {
     //https://www.codewars.com/kata/57d2807295497e652b000139
-    public static class Averages_of_numbers
+    public class Averages_of_numbers
     {
         public static double[] Averages(int[] numbers)
         {

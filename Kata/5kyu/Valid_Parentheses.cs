@@ -1,7 +1,7 @@
 ﻿namespace Kata._5kyu
 {
     //https://www.codewars.com/kata/52774a314c2333f0a7000688
-    public static class Valid_Parentheses
+    public class Valid_Parentheses
     {
         public static bool ValidParentheses(string input)
         {

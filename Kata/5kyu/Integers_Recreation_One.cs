@@ -5,7 +5,7 @@ using System.Linq;
 namespace Kata._5kyu
 {
     //https://www.codewars.com/kata/55aa075506463dac6600010d
-    public static class Integers_Recreation_One
+    public class Integers_Recreation_One
     {
         public static string listSquared(long m, long n)
         {

@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/552c028c030765286c00007d
-    public static class IQ_Test
+    public class IQ_Test
     {
         public static int Test(string numbers)
         {

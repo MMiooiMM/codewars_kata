@@ -1,7 +1,7 @@
 ﻿namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/55e2adece53b4cdcb900006c
-    public static class Tortoise_racing
+    public class Tortoise_racing
     {
         public static int[] Race(int v1, int v2, int g)
         {

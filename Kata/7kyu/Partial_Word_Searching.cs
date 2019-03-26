@@ -3,7 +3,7 @@
 namespace Kata._7kyu
 {
     //https://www.codewars.com/kata/54b81566cd7f51408300022d
-    public static class Partial_Word_Searching
+    public class Partial_Word_Searching
     {
         public static string[] WordSearch(string query, string[] seq)
         {

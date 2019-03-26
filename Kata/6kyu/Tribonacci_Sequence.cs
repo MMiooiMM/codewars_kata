@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/tribonacci-sequence
-    public static class Tribonacci_Sequence
+    public class Tribonacci_Sequence
     {
         public static double[] Tribonacci(double[] signature, int n)
         {

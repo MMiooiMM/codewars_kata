@@ -3,7 +3,7 @@
 namespace Kata._7kyu
 {
     //https://www.codewars.com/kata/56484848ba95170a8000004d
-    public static class Speed_Control
+    public class Speed_Control
     {
         public static int Gps(int s, double[] x)
         {

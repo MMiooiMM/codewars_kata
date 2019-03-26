@@ -1,7 +1,7 @@
 ﻿namespace Kata._7kyu
 {
     //https://www.codewars.com/kata/582c297e56373f0426000098
-    public static class Convert_a_linked_list_to_a_string
+    public class Convert_a_linked_list_to_a_string
     {
         public static string Stringify(Node list)
         {

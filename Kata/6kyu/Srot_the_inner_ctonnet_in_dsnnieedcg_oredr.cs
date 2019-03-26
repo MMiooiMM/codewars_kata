@@ -4,7 +4,7 @@ using System.Linq;
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/5898b4b71d298e51b600014b
-    public static class Srot_the_inner_ctonnet_in_dsnnieedcg_oredr
+    public class Srot_the_inner_ctonnet_in_dsnnieedcg_oredr
     {
         public static string SortTheInnerContent(string words)
         {

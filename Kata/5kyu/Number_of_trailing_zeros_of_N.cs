@@ -7,7 +7,7 @@ using System.Text;
 namespace Kata._5kyu
 {
     //https://www.codewars.com/kata/number-of-trailing-zeros-of-n
-    public static class Number_of_trailing_zeros_of_N
+    public class Number_of_trailing_zeros_of_N
     {
         public static int TrailingZeros(int n)
         {

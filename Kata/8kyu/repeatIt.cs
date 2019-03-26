@@ -1,7 +1,7 @@
 ﻿namespace Kata._8kyu
 {
     //https://www.codewars.com/kata/557af9418895e44de7000053
-    public static class repeatIt
+    public class repeatIt
     {
         public static string RepeatString(object toRepeat, int n)
         {

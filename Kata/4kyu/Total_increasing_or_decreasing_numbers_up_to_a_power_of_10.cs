@@ -3,7 +3,7 @@
 namespace Kata._4kyu
 {
     //https://www.codewars.com/kata/55b195a69a6cc409ba000053
-    public static class Total_increasing_or_decreasing_numbers_up_to_a_power_of_10
+    public class Total_increasing_or_decreasing_numbers_up_to_a_power_of_10
     {
         public static BigInteger TotalIncDec(int x)
         {

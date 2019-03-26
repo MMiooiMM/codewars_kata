@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/57b06f90e298a7b53d000a86
-    public static class The_Supermarket_Queue
+    public class The_Supermarket_Queue
     {
         public static long QueueTime(int[] customers, int n)
         {

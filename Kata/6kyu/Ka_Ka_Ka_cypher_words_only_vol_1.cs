@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/5934d648d95386bc8200010b
-    public static class Ka_Ka_Ka_cypher_words_only_vol_1
+    public class Ka_Ka_Ka_cypher_words_only_vol_1
     {
         public static string KaCokadekaMe(string word)
         {

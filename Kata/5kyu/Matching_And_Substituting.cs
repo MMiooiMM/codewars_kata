@@ -3,7 +3,7 @@
 namespace Kata._5kyu
 {
     //https://www.codewars.com/kata/matching-and-substituting
-    public static class Matching_And_Substituting
+    public class Matching_And_Substituting
     {
         public static string Change(string s, string prog, string version)
         {

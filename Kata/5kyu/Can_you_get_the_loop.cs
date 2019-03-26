@@ -4,7 +4,7 @@ using System.Linq;
 namespace Kata._5kyu
 {
     //https://www.codewars.com/kata/52a89c2ea8ddc5547a000863
-    public static class Can_you_get_the_loop
+    public class Can_you_get_the_loop
     {
         public static int getLoopSize(Node startNode)
         {

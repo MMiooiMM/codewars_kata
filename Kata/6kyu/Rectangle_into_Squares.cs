@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/55466989aeecab5aac00003e
-    public static class Rectangle_into_Squares
+    public class Rectangle_into_Squares
     {
         public static List<int> sqInRect(int lng, int wdth)
         {

@@ -1,7 +1,7 @@
 ﻿namespace Kata._8kyu
 {
     //https://www.codewars.com/kata/5bb904724c47249b10000131
-    public static class Total_amount_of_points
+    public class Total_amount_of_points
     {
         public static int TotalPoints(string[] games)
         {

@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/545cedaa9943f7fe7b000048
-    public static class Detect_Pangram
+    public class Detect_Pangram
     {
         public static bool IsPangram(string str)
         {

@@ -4,7 +4,7 @@ using System.Linq;
 namespace Kata._5kyu
 {
     //https://www.codewars.com/kata/595ddfe2fc339d8a7d000089
-    public static class Hamster_me
+    public class Hamster_me
     {
         public static string HamsterMe(string code, string message)
         {

@@ -4,7 +4,7 @@ using System.Linq;
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/56a32dd6e4f4748cc3000006
-    public static class Rainfall
+    public class Rainfall
     {
         public static double Mean(string town, string strng)
         {

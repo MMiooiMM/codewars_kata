@@ -1,7 +1,7 @@
 ﻿namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/526233aefd4764272800036f
-    public static class Matrix_Addition
+    public class Matrix_Addition
     {
         public static int[][] MatrixAddition(int[][] a, int[][] b)
         {

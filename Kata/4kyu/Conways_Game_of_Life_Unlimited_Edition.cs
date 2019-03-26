@@ -1,7 +1,7 @@
 ﻿namespace Kata._4kyu
 {
     //https://www.codewars.com/kata/52423db9add6f6fc39000354
-    public static class Conways_Game_of_Life_Unlimited_Edition
+    public class Conways_Game_of_Life_Unlimited_Edition
     {
         public static int[,] GetGeneration(int[,] cells, int generation)
         {

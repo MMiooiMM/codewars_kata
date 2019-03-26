@@ -5,7 +5,7 @@ using System.Linq;
 namespace Kata._5kyu
 {
     //https://www.codewars.com/kata/5889a0706069af1cb9000176
-    public static class Simple_Fun_Runners_Meetings
+    public class Simple_Fun_Runners_Meetings
     {
         public static int RunnersMeetings(int[] StartPosition, int[] speed)
         {

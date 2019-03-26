@@ -3,7 +3,7 @@
 namespace Kata._7kyu
 {
     //https://www.codewars.com/kata/56606694ec01347ce800001b
-    public static class Is_this_a_triangle
+    public class Is_this_a_triangle
     {
         public static bool IsTriangle(int a, int b, int c)
         {

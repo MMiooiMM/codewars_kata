@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/5592e3bd57b64d00f3000047
-    public static class Build_a_pile_of_Cubes
+    public class Build_a_pile_of_Cubes
     {
         public static long findNb(long m)
         {

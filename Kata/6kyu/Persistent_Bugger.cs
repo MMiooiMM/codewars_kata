@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec
-    public static class Persistent_Bugger
+    public class Persistent_Bugger
     {
         public static int Persistence(long n)
         {

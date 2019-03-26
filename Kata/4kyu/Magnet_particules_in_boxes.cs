@@ -3,7 +3,7 @@
 namespace Kata._4kyu
 {
     //https://www.codewars.com/kata/56c04261c3fcf33f2d000534
-    public static class Magnet_particules_in_boxes
+    public class Magnet_particules_in_boxes
     {
         public static double Doubles(int maxk, int maxn)
         {

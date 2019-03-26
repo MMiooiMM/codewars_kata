@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kata._5kyu
 {
-    public static class K_Primes
+    public class K_Primes
     {
         public static long[] CountKprimes(int k, long start, long end)
         {

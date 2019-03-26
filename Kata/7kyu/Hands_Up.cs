@@ -1,7 +1,7 @@
 ﻿namespace Kata._7kyu
 {
     //https://www.codewars.com/kata/56d8f14cba01a83cdb0002a2
-    public static class Hands_Up
+    public class Hands_Up
     {
         public static int[] GetPositions(int s)
         {

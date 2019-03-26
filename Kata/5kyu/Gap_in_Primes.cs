@@ -4,7 +4,7 @@ using System.Linq;
 namespace Kata._5kyu
 {
     //https://www.codewars.com/kata/561e9c843a2ef5a40c0000a4
-    public static class Gap_in_Primes
+    public class Gap_in_Primes
     {
         public static long[] Gap(int g, long m, long n)
         {

@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/5526fc09a1bbd946250002dc
-    public static class Find_The_Parity_Outlier
+    public class Find_The_Parity_Outlier
     {
         public static int Find(int[] integers)
         {

@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/554a44516729e4d80b000012
-    public static class Buying_a_car
+    public class Buying_a_car
     {
         public static int[] nbMonths(int startPriceOld, int startPriceNew, int savingperMonth, double percentLossByMonth)
         {

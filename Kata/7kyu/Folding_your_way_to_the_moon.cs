@@ -3,7 +3,7 @@
 namespace Kata._7kyu
 {
     //https://www.codewars.com/kata/58f0ba42e89aa6158400000e
-    public static class Folding_your_way_to_the_moon
+    public class Folding_your_way_to_the_moon
     {
         public static int? FoldTo(double distance)
         {

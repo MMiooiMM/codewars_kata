@@ -4,7 +4,7 @@ using System.Linq;
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/578aa45ee9fd15ff4600090d
-    public static class Sort_the_odd
+    public class Sort_the_odd
     {
         public static int[] SortArray(int[] array)
         {

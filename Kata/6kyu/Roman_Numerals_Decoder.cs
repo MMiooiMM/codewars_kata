@@ -4,7 +4,7 @@ using System.Linq;
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/51b6249c4612257ac0000005
-    public static class Roman_Numerals_Decoder
+    public class Roman_Numerals_Decoder
     {
         public static int Solution(string roman)
         {

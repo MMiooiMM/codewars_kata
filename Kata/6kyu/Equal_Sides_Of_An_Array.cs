@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/5679aa472b8f57fb8c000047
-    public static class Equal_Sides_Of_An_Array
+    public class Equal_Sides_Of_An_Array
     {
         public static int FindEvenIndex(int[] arr)
         {

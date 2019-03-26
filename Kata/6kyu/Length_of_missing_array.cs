@@ -4,7 +4,7 @@ using System.Linq;
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/57b6f5aadb5b3d0ae3000611
-    public static class Length_of_missing_array
+    public class Length_of_missing_array
     {
         public static int GetLengthOfMissingArray(object[][] arrayOfArrays)
         {

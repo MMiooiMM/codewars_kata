@@ -3,7 +3,7 @@
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/595b3f0ad26b2d817400002a
-    public static class Grill_it
+    public class Grill_it
     {
         public static string Grille(string message, int code)
         {

@@ -4,7 +4,7 @@ using System.Linq;
 namespace Kata._5kyu
 {
     //https://www.codewars.com/kata/56001790ac99763af400008c
-    public static class Compute_the_Largest_Sum_of_all_Contiguous_Subsequences
+    public class Compute_the_Largest_Sum_of_all_Contiguous_Subsequences
     {
         public static int LargestSum(int[] arr)
         {

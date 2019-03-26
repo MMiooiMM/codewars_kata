@@ -3,7 +3,7 @@
 namespace Kata._7kyu
 {
     //https://www.codewars.com/kata/558fc85d8fd1938afb000014
-    public static class Sum_of_two_lowest_positive_integers
+    public class Sum_of_two_lowest_positive_integers
     {
         public static int sumTwoSmallestNumbers(int[] numbers)
         {

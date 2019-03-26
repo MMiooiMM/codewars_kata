@@ -4,7 +4,7 @@ using System.Linq;
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/5966847f4025872c7d00015b
-    public static class String_average
+    public class String_average
     {
         public static string AverageString(string str)
         {

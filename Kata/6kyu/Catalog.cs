@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kata._6kyu
 {
-    public static class Catalog
+    public class Catalog
     {
         public static string _Catalog(string s, string article)
         {
