@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/getting-along-with-integer-partitions/
+
 def prod(n):
     ret = [{1.}]
     for i in range(1, n+1):
