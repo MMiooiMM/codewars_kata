@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 namespace Kata._4kyu {
+    https://www.codewars.com/kata/getting-along-with-integer-partitions/
     public class Getting_along_with_Integer_Partitions {
         public static string Part (long n) {
             var value = Prod(n);
