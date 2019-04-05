@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 namespace Kata._4kyu {
-    https://www.codewars.com/kata/getting-along-with-integer-partitions/
+    //https://www.codewars.com/kata/getting-along-with-integer-partitions/
     public class Getting_along_with_Integer_Partitions {
         public static string Part (long n) {
             var value = Prod(n);
@@ -16,15 +16,13 @@ namespace Kata._4kyu {
             var result = new List<List<long>> { new List<long> { 1 } };
             foreach(var i in Enumerable.Range(1 , (int)n))
             {
-                var tmp = new List<long>();
-                foreach (var num in result.Select((x, index) => new { x, index }))
-                {
-                    foreach (var value in num.x)
-                    {
-                        tmp.Add((i - num.index) * value);
-                    }
-                }
-                result.Add(tmp.OrderBy(x => x).Distinct().ToList());
+                var tmp = result
+                    .Select((x, index) => x.Select(o => (i - index) * o))
+                    .SelectMany(x => x)
+                    .Distinct()
+                    .OrderBy(x => x)
+                    .ToList();
+                result.Add(tmp);
             }
             return result.Last();
         }
