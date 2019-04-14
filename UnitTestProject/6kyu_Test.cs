@@ -7,7 +7,6 @@ namespace UnitTestProject
     [TestClass]
     public class _6kyu_Test
     {
-
         [TestMethod]
         public void Are_they_the_same_Test()
         {

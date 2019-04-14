@@ -7,7 +7,6 @@ namespace UnitTestProject
     [TestClass]
     public class _4kyu_Test
     {
-
         [TestMethod]
         public void Next_smaller_number_with_the_same_digits_Test()
         {

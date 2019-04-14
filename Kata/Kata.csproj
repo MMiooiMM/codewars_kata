@@ -121,6 +121,7 @@
     <Compile Include="7kyu\Number_of_People_in_the_Bus.cs" />
     <Compile Include="7kyu\Odd_or_Even.cs" />
     <Compile Include="7kyu\Partial_Word_Searching.cs" />
+    <Compile Include="7kyu\Parts_of_a_list.cs" />
     <Compile Include="7kyu\Reverse_a_Number.cs" />
     <Compile Include="7kyu\Reverse_words.cs" />
     <Compile Include="7kyu\Simple_Fun_2_Circle_of_Numbers.cs" />
