@@ -16,5 +16,63 @@ namespace UnitTestProject
             var expected = true;
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void up_AND_down_Test()
+        {
+            var a = "after be arrived two My so";
+            var actual = up_AND_down.Arrange(a);
+            var expected = "be ARRIVED two AFTER my SO";
+            Assert.AreEqual(expected, actual);
+
+            a = "who hit retaining The That a we taken";
+            actual = up_AND_down.Arrange(a);
+            expected = "who RETAINING hit THAT a THE we TAKEN";
+            Assert.AreEqual(expected, actual);
+
+            a = "on I came up were so grandmothers";
+            actual = up_AND_down.Arrange(a);
+            expected = "i CAME on WERE up GRANDMOTHERS so";
+            Assert.AreEqual(expected, actual);
+
+            a = "way the my wall them him";
+            actual = up_AND_down.Arrange(a);
+            expected = "way THE my WALL him THEM";
+            Assert.AreEqual(expected, actual);
+
+            a = "turn know great-aunts aunt look A to back";
+            actual = up_AND_down.Arrange(a);
+            expected = "turn GREAT-AUNTS know AUNT a LOOK to BACK";
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void up_AND_down_Linq_Test()
+        {
+            var a = "after be arrived two My so";
+            var actual = up_AND_down.Arrange_Linq(a);
+            var expected = "be ARRIVED two AFTER my SO";
+            Assert.AreEqual(expected, actual);
+
+            a = "who hit retaining The That a we taken";
+            actual = up_AND_down.Arrange_Linq(a);
+            expected = "who RETAINING hit THAT a THE we TAKEN";
+            Assert.AreEqual(expected, actual);
+
+            a = "on I came up were so grandmothers";
+            actual = up_AND_down.Arrange_Linq(a);
+            expected = "i CAME on WERE up GRANDMOTHERS so";
+            Assert.AreEqual(expected, actual);
+
+            a = "way the my wall them him";
+            actual = up_AND_down.Arrange_Linq(a);
+            expected = "way THE my WALL him THEM";
+            Assert.AreEqual(expected, actual);
+
+            a = "turn know great-aunts aunt look A to back";
+            actual = up_AND_down.Arrange_Linq(a);
+            expected = "turn GREAT-AUNTS know AUNT a LOOK to BACK";
+            Assert.AreEqual(expected, actual);
+        }
     }
 }

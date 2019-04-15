@@ -101,6 +101,7 @@
     <Compile Include="6kyu\The_Supermarket_Queue.cs" />
     <Compile Include="6kyu\Tortoise_racing.cs" />
     <Compile Include="6kyu\Tribonacci_Sequence.cs" />
+    <Compile Include="6kyu\up_AND_down.cs" />
     <Compile Include="6kyu\Valid_Braces.cs" />
     <Compile Include="6kyu\Vasya_Clerk.cs" />
     <Compile Include="6kyu\Which_are_in.cs" />
