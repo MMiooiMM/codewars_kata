@@ -82,6 +82,7 @@
     <Compile Include="6kyu\Equal_Sides_Of_An_Array.cs" />
     <Compile Include="6kyu\Find_The_Parity_Outlier.cs" />
     <Compile Include="6kyu\Grill_it.cs" />
+    <Compile Include="6kyu\Integers_Recreation_Two.cs" />
     <Compile Include="6kyu\IQ_Test.cs" />
     <Compile Include="6kyu\Ka_Ka_Ka_cypher_words_only_vol_1.cs" />
     <Compile Include="6kyu\Length_of_missing_array.cs" />

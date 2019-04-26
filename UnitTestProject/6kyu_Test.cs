@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Kata._6kyu;
 
@@ -73,6 +74,18 @@ namespace UnitTestProject
             actual = up_AND_down.Arrange_Linq(a);
             expected = "turn GREAT-AUNTS know AUNT a LOOK to BACK";
             Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Integers_Recreation_Two_Test()
+        {
+            var actual = Integers_Recreation_Two.Prod2Sum(1, 2, 1, 3);
+            var expected = new List<long[]>() { new long[] { 1, 7 } , new long[] { 5, 5 } };
+            Assert.IsTrue(Integers_Recreation_Two.AreEqual(actual, expected));
+            
+            actual = Integers_Recreation_Two.Prod2Sum(2, 3, 4, 5);
+            expected = new List<long[]>() { new long[] { 2, 23 }, new long[] { 7, 22 } };
+            Assert.IsTrue(Integers_Recreation_Two.AreEqual(actual, expected));
         }
     }
 }
