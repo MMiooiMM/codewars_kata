@@ -42,7 +42,7 @@ namespace Kata._4kyu
         }
     }
 
-    public class Clever
+    public class Sudoku_Solution_Validator_Clever
     {
         public static bool ValidateSolution(int[][] board)
         {
