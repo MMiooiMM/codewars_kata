@@ -8,11 +8,18 @@ namespace UnitTestProject
 {
     public class TestHelper
     {
-        public static string Array2DToString(string[][] str)
+        public static string Array2DToString(string[][] arr)
         {
-            if (!(str is string[][]))
+            if (!(arr is string[][]))
                 return string.Empty;
-            return $"[{string.Join(", ", str.Select(x => $"[{string.Join(", ", x.Select(o => $"\"{o}\""))}]"))}]";
+            return $"[{string.Join(", ", arr.Select(x => $"[{string.Join(", ", x.Select(o => $"\"{o}\""))}]"))}]";
+        }
+
+        public static string ArrayToString<T>(IEnumerable<T> arr)
+        {
+            if (!(arr is IEnumerable<T>))
+                return string.Empty;
+            return $"[{string.Join(", ", arr.Select(x => x + ""))}]";
         }
     }
 }
