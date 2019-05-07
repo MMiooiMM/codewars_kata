@@ -54,6 +54,7 @@
     <Compile Include="4kyu\Sum_by_Factors.cs" />
     <Compile Include="4kyu\Total_increasing_or_decreasing_numbers_up_to_a_power_of_10.cs" />
     <Compile Include="5kyu\Basic_Nico_variation.cs" />
+    <Compile Include="5kyu\Best_travel.cs" />
     <Compile Include="5kyu\Can_you_get_the_loop.cs" />
     <Compile Include="5kyu\Compute_the_Largest_Sum_of_all_Contiguous_Subsequences.cs" />
     <Compile Include="5kyu\Creating_a_new_LINQ_operator_SelectConsecutive.cs" />
@@ -141,6 +142,7 @@
     <Compile Include="8kyu\repeatIt.cs" />
     <Compile Include="8kyu\The_if_function.cs" />
     <Compile Include="8kyu\Total_amount_of_points.cs" />
+    <Compile Include="Other\LinqExtension.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -149,7 +151,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="3kyu\" />
-    <Folder Include="Other\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
