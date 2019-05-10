@@ -56,6 +56,7 @@
     <Compile Include="5kyu\Basic_Nico_variation.cs" />
     <Compile Include="5kyu\Best_travel.cs" />
     <Compile Include="5kyu\Can_you_get_the_loop.cs" />
+    <Compile Include="5kyu\Car_Park_Escape.cs" />
     <Compile Include="5kyu\Compute_the_Largest_Sum_of_all_Contiguous_Subsequences.cs" />
     <Compile Include="5kyu\Creating_a_new_LINQ_operator_SelectConsecutive.cs" />
     <Compile Include="5kyu\Gap_in_Primes.cs" />

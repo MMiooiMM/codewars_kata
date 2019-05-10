@@ -21,5 +21,17 @@ namespace UnitTestProject
                 return string.Empty;
             return $"[{string.Join(", ", arr.Select(x => x + ""))}]";
         }
+
+        public static bool ArrayAreEqual<T>(T[] Arr1, T[] Arr2)
+        {
+            if (Arr1.Count() != Arr2.Count())
+                return false;
+            for(int i = 0; i < Arr1.Count(); i++)
+            {
+                if (Arr1[i].ToString() != Arr2[i].ToString())
+                    return false;
+            }
+            return true;
+        }
     }
 }

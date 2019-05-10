@@ -58,5 +58,38 @@ namespace UnitTestProject
                 {500, 520, 552, 567, 588, 592, 594};
             Assert.AreEqual(TestHelper.ArrayToString(expected), TestHelper.ArrayToString(actual));
         }
+
+        [TestMethod]
+        public void Car_Park_Escape_Test()
+        {
+            int[,] carpark = new int[,] { { 1, 0, 0, 0, 2 },
+                                          { 0, 0, 0, 0, 0 } };
+            string[] result = new string[] { "L4", "D1", "R4" };
+            Assert.AreEqual(true, TestHelper.ArrayAreEqual(result, Car_Park_Escape.escape(carpark)));
+
+            carpark = new int[,] { { 2, 0, 0, 1, 0 },
+                                          { 0, 0, 0, 1, 0 },
+                                          { 0, 0, 0, 0, 0 } };
+            result = new string[] { "R3", "D2", "R1" };
+            Assert.AreEqual(true, TestHelper.ArrayAreEqual(result, Car_Park_Escape.escape(carpark)));
+
+            carpark = new int[,] { { 0, 2, 0, 0, 1 },
+                                          { 0, 0, 0, 0, 1 },
+                                          { 0, 0, 0, 0, 1 },
+                                          { 0, 0, 0, 0, 0 } };
+            result = new string[] { "R3", "D3" };
+            Assert.AreEqual(true, TestHelper.ArrayAreEqual(result, Car_Park_Escape.escape(carpark)));
+
+            carpark = new int[,] { { 1, 0, 0, 0, 2 },
+                                          { 0, 0, 0, 0, 1 },
+                                          { 1, 0, 0, 0, 0 },
+                                          { 0, 0, 0, 0, 0 } };
+            result = new string[] { "L4", "D1", "R4", "D1", "L4", "D1", "R4" };
+            Assert.AreEqual(true, TestHelper.ArrayAreEqual(result, Car_Park_Escape.escape(carpark)));
+
+            carpark = new int[,] { { 0, 0, 0, 0, 2 } };
+            result = new string[] { };
+            Assert.AreEqual(true, TestHelper.ArrayAreEqual(result, Car_Park_Escape.escape(carpark)));
+        }
     }
 }
