@@ -57,6 +57,7 @@
     <Compile Include="5kyu\Best_travel.cs" />
     <Compile Include="5kyu\Can_you_get_the_loop.cs" />
     <Compile Include="5kyu\Car_Park_Escape.cs" />
+    <Compile Include="5kyu\Common_Denominators.cs" />
     <Compile Include="5kyu\Compute_the_Largest_Sum_of_all_Contiguous_Subsequences.cs" />
     <Compile Include="5kyu\Creating_a_new_LINQ_operator_SelectConsecutive.cs" />
     <Compile Include="5kyu\Gap_in_Primes.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="5kyu\Matching_And_Substituting.cs" />
     <Compile Include="5kyu\Number_of_trailing_zeros_of_N.cs" />
     <Compile Include="5kyu\PaginationHelper.cs" />
+    <Compile Include="5kyu\Primes_in_numbers.cs" />
     <Compile Include="5kyu\Rot13.cs" />
     <Compile Include="5kyu\Simple_Fun_Runners_Meetings.cs" />
     <Compile Include="5kyu\Valid_Parentheses.cs" />
@@ -77,6 +79,7 @@
     <Compile Include="6kyu\Buying_a_car.cs" />
     <Compile Include="6kyu\Calculate_number_of_inversions_in_array.cs" />
     <Compile Include="6kyu\Catalog.cs" />
+    <Compile Include="6kyu\Consonant_value.cs" />
     <Compile Include="6kyu\Convert_string_to_camel_case.cs" />
     <Compile Include="6kyu\Counting_Duplicates.cs" />
     <Compile Include="6kyu\Detect_Pangram.cs" />

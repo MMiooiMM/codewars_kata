@@ -9,6 +9,19 @@ namespace UnitTestProject
     public class _5kyu_Test
     {
         [TestMethod]
+        public void Common_Denominators_Test()
+        {
+            Assert.AreEqual("(6,12)(4,12)(3,12)", Common_Denominators.convertFrac(new long[,] { { 1, 2 }, { 1, 3 }, { 1, 4 } }));
+        }
+
+        [TestMethod]
+        public void Primes_in_numbers_Test()
+        {
+            Assert.AreEqual("(2**5)(5)(7**2)(11)", Primes_in_numbers.factors(86240));
+            Assert.AreEqual("(2**2)(3**3)(5)(7)(11**2)(17)", Primes_in_numbers.factors(7775460));
+        }
+
+        [TestMethod]
         public void Simple_Fun_Runners_Meetings_Test()
         {
             Assert.AreEqual(3, Simple_Fun_Runners_Meetings.RunnersMeetings(new int[] { 1, 4, 2 }, new int[] { 27, 18, 24 }));
