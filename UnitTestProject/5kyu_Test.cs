@@ -9,6 +9,13 @@ namespace UnitTestProject
     public class _5kyu_Test
     {
         [TestMethod]
+        public void Decimal_to_Factorial_and_Back_Test()
+        {
+            Assert.AreEqual("341010", Decimal_to_Factorial_and_Back.dec2FactString(463));
+            Assert.AreEqual(463, Decimal_to_Factorial_and_Back.factString2Dec("341010"));
+        }
+
+        [TestMethod]
         public void Common_Denominators_Test()
         {
             Assert.AreEqual("(6,12)(4,12)(3,12)", Common_Denominators.convertFrac(new long[,] { { 1, 2 }, { 1, 3 }, { 1, 4 } }));

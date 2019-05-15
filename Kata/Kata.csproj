@@ -60,6 +60,7 @@
     <Compile Include="5kyu\Common_Denominators.cs" />
     <Compile Include="5kyu\Compute_the_Largest_Sum_of_all_Contiguous_Subsequences.cs" />
     <Compile Include="5kyu\Creating_a_new_LINQ_operator_SelectConsecutive.cs" />
+    <Compile Include="5kyu\Decimal_to_Factorial_and_Back.cs" />
     <Compile Include="5kyu\Gap_in_Primes.cs" />
     <Compile Include="5kyu\Hamster_me.cs" />
     <Compile Include="5kyu\Integers_Recreation_One.cs" />
