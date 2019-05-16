@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,6 +28,18 @@ namespace UnitTestProject
             if (Arr1.Count() != Arr2.Count())
                 return false;
             for(int i = 0; i < Arr1.Count(); i++)
+            {
+                if (Arr1[i].ToString() != Arr2[i].ToString())
+                    return false;
+            }
+            return true;
+        }
+
+        public static bool ArrayAreEqual(ArrayList Arr1, ArrayList Arr2)
+        {
+            if (Arr1.Count != Arr2.Count)
+                return false;
+            for (int i = 0; i < Arr1.Count; i++)
             {
                 if (Arr1[i].ToString() != Arr2[i].ToString())
                     return false;

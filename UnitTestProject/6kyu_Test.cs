@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Kata._6kyu;
@@ -8,6 +9,18 @@ namespace UnitTestProject
     [TestClass]
     public class _6kyu_Test
     {
+        [TestMethod]
+        public void PI_approximation_Test()
+        {
+            var actual = PI_approximation.iterPi(0.1);
+            var expected = new ArrayList { 10d, 3.0418396189 };
+            Assert.IsTrue(TestHelper.ArrayAreEqual(actual, expected));
+            
+            actual = PI_approximation.iterPi(0.001);
+            expected = new ArrayList { 1000d, 3.1405926538 };
+            Assert.IsTrue(TestHelper.ArrayAreEqual(actual, expected));
+        }
+
         [TestMethod]
         public void Consonant_value_Test()
         {
