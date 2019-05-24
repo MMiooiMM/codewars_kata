@@ -9,6 +9,13 @@ namespace UnitTestProject
     public class _5kyu_Test
     {
         [TestMethod]
+        public void Weight_for_weight_Test()
+        {
+            Assert.AreEqual("2000 103 123 4444 99", Weight_for_weight.orderWeight("103 123 4444 99 2000"));
+            Assert.AreEqual("11 11 2000 10003 22 123 1234000 44444444 9999", Weight_for_weight.orderWeight("2000 10003 1234000 44444444 9999 11 11 22 123"));
+        }
+
+        [TestMethod]
         public void Decimal_to_Factorial_and_Back_Test()
         {
             Assert.AreEqual("341010", Decimal_to_Factorial_and_Back.dec2FactString(463));
