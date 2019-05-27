@@ -91,6 +91,7 @@
     <Compile Include="6kyu\Grill_it.cs" />
     <Compile Include="6kyu\Integers_Recreation_Two.cs" />
     <Compile Include="6kyu\IQ_Test.cs" />
+    <Compile Include="6kyu\Is_a_number_prime.cs" />
     <Compile Include="6kyu\Ka_Ka_Ka_cypher_words_only_vol_1.cs" />
     <Compile Include="6kyu\Length_of_missing_array.cs" />
     <Compile Include="6kyu\Matrix_Addition.cs" />

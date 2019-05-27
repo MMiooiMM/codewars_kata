@@ -10,6 +10,26 @@ namespace UnitTestProject
     public class _6kyu_Test
     {
         [TestMethod]
+        public void Is_a_number_prime_Test()
+        {
+            Assert.IsFalse(Is_a_number_prime.IsPrime(0));
+            Assert.IsFalse(Is_a_number_prime.IsPrime(1));
+            Assert.IsTrue(Is_a_number_prime.IsPrime(2));
+            Assert.IsTrue(Is_a_number_prime.IsPrime(3));
+            Assert.IsFalse(Is_a_number_prime.IsPrime(4));
+            Assert.IsTrue(Is_a_number_prime.IsPrime(5));
+            Assert.IsFalse(Is_a_number_prime.IsPrime(6));
+            Assert.IsTrue(Is_a_number_prime.IsPrime(7));
+            Assert.IsFalse(Is_a_number_prime.IsPrime(8));
+            Assert.IsFalse(Is_a_number_prime.IsPrime(9));
+            Assert.IsTrue(Is_a_number_prime.IsPrime(73));
+            Assert.IsFalse(Is_a_number_prime.IsPrime(75));
+            Assert.IsTrue(Is_a_number_prime.IsPrime(5099));
+            Assert.IsFalse(Is_a_number_prime.IsPrime(-1));
+            Assert.IsFalse(Is_a_number_prime.IsPrime(-2));
+        }
+
+        [TestMethod]
         public void PI_approximation_Test()
         {
             var actual = PI_approximation.iterPi(0.1);
