@@ -10,6 +10,26 @@ namespace UnitTestProject
     public class _6kyu_Test
     {
         [TestMethod]
+        public void Sum_of_Digits_Digital_Root_Test()
+        {
+            var actual = Sum_of_Digits_Digital_Root.DigitalRoot(16);
+            var expected = 7;
+            Assert.AreEqual(actual, expected);
+
+            actual = Sum_of_Digits_Digital_Root.DigitalRoot(942);
+            expected = 6;
+            Assert.AreEqual(actual, expected);
+
+            actual = Sum_of_Digits_Digital_Root.DigitalRoot(132189);
+            expected = 6;
+            Assert.AreEqual(actual, expected);
+
+            actual = Sum_of_Digits_Digital_Root.DigitalRoot(493193);
+            expected = 2;
+            Assert.AreEqual(actual, expected);
+        }
+
+        [TestMethod]
         public void Is_a_number_prime_Test()
         {
             Assert.IsFalse(Is_a_number_prime.IsPrime(0));
