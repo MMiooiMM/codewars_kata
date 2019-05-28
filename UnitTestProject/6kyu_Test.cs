@@ -10,6 +10,18 @@ namespace UnitTestProject
     public class _6kyu_Test
     {
         [TestMethod]
+        public void Data_Reverse_Test()
+        {
+            var actual = Data_Reverse.DataReverse(new int[32] { 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0 });
+            var expected = new int[32] { 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1 }; ;
+            Assert.IsTrue(TestHelper.ArrayAreEqual(actual, expected));
+
+            actual = Data_Reverse.DataReverse(new int[16] { 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1 });
+            expected = new int[16] { 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0 };
+            Assert.IsTrue(TestHelper.ArrayAreEqual(actual, expected));
+        }
+
+        [TestMethod]
         public void Sum_of_Digits_Digital_Root_Test()
         {
             var actual = Sum_of_Digits_Digital_Root.DigitalRoot(16);

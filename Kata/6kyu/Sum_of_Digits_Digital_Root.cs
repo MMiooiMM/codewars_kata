@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Kata._6kyu
+﻿namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/541c8630095125aba6000c00
     public class Sum_of_Digits_Digital_Root
