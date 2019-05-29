@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3kyu\The_Millionth_Fibonacci_Kata.cs" />
     <Compile Include="4kyu\Connect_Four.cs" />
     <Compile Include="4kyu\Conways_Game_of_Life_Unlimited_Edition.cs" />
     <Compile Include="4kyu\Factorial_tail.cs" />
@@ -161,8 +162,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="3kyu\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
