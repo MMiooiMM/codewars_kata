@@ -76,6 +76,7 @@
     <Compile Include="6kyu\Are_they_the_same.cs" />
     <Compile Include="6kyu\Are_we_alternate.cs" />
     <Compile Include="6kyu\A_Rule_of_Divisibility_by_13.cs" />
+    <Compile Include="6kyu\Bit_Counting.cs" />
     <Compile Include="6kyu\Bouncing_Balls.cs" />
     <Compile Include="6kyu\Build_a_pile_of_Cubes.cs" />
     <Compile Include="6kyu\Buying_a_car.cs" />

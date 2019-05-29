@@ -10,10 +10,34 @@ namespace UnitTestProject
     public class _6kyu_Test
     {
         [TestMethod]
+        public void Bit_Counting_Test()
+        {
+            var actual = Bit_Counting.CountBits(1);
+            var expected = 1;
+            Assert.AreEqual(actual, expected);
+
+            actual = Bit_Counting.CountBits(2);
+            expected = 1;
+            Assert.AreEqual(actual, expected);
+
+            actual = Bit_Counting.CountBits(3);
+            expected = 2;
+            Assert.AreEqual(actual, expected);
+
+            actual = Bit_Counting.CountBits(4);
+            expected = 1;
+            Assert.AreEqual(actual, expected);
+
+            actual = Bit_Counting.CountBits(1234);
+            expected = 5;
+            Assert.AreEqual(actual, expected);
+        }
+
+        [TestMethod]
         public void Data_Reverse_Test()
         {
             var actual = Data_Reverse.DataReverse(new int[32] { 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0 });
-            var expected = new int[32] { 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1 }; ;
+            var expected = new int[32] { 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1 };
             Assert.IsTrue(TestHelper.ArrayAreEqual(actual, expected));
 
             actual = Data_Reverse.DataReverse(new int[16] { 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1 });
