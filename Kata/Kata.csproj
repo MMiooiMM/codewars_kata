@@ -49,6 +49,7 @@
     <Compile Include="4kyu\Large_Factorials.cs" />
     <Compile Include="4kyu\Magnet_particules_in_boxes.cs" />
     <Compile Include="4kyu\Next_smaller_number_with_the_same_digits.cs" />
+    <Compile Include="4kyu\Range_Extraction.cs" />
     <Compile Include="4kyu\Strings_Mix.cs" />
     <Compile Include="4kyu\Sudoku_Solution_Validator.cs" />
     <Compile Include="4kyu\Sum_by_Factors.cs" />
