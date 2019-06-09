@@ -9,6 +9,17 @@ namespace UnitTestProject
     public class _5kyu_Test
     {
         [TestMethod]
+        public void RGB_To_Hex_Conversion_Test()
+        {
+            Assert.AreEqual("FFFFFF", RGB_To_Hex_Conversion.Rgb(255, 255, 255));
+            Assert.AreEqual("FFFFFF", RGB_To_Hex_Conversion.Rgb(255, 255, 300));
+            Assert.AreEqual("000000", RGB_To_Hex_Conversion.Rgb(0, 0, 0));
+            Assert.AreEqual("9400D3", RGB_To_Hex_Conversion.Rgb(148, 0, 211));
+            Assert.AreEqual("9400D3", RGB_To_Hex_Conversion.Rgb(148, -20, 211));
+            Assert.AreEqual("90C3D4", RGB_To_Hex_Conversion.Rgb(144, 195, 212));
+            Assert.AreEqual("D4350C", RGB_To_Hex_Conversion.Rgb(212, 53, 12));
+        }
+        [TestMethod]
         public void Weight_for_weight_Test()
         {
             Assert.AreEqual("2000 103 123 4444 99", Weight_for_weight.orderWeight("103 123 4444 99 2000"));
