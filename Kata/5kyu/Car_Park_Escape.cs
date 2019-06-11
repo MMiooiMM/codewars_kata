@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Kata._5kyu
 {
+    //https://www.codewars.com/kata/591eab1d192fe0435e000014
     public class Car_Park_Escape
     {
         public static string[] escape(int[,] carpark)

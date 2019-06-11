@@ -4,6 +4,7 @@ namespace Kata._5kyu
 {
     public class Decimal_to_Factorial_and_Back
     {
+        //https://www.codewars.com/kata/54e320dcebe1e583250008fd
         public static string dec2FactString(long nb)
         {
             var result = "";

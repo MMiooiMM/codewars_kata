@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Kata._5kyu
 {
+    //https://www.codewars.com/kata/513e08acc600c94f01000001
     public class RGB_To_Hex_Conversion
     {
         public static string Rgb(int r, int g, int b)

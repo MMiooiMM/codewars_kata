@@ -3,6 +3,7 @@ using System.Linq;
 
 namespace Kata._6kyu
 {
+    //https://www.codewars.com/kata/564057bc348c7200bd0000ff
     public class A_Rule_of_Divisibility_by_13
     {
         public static long Thirt(long n)

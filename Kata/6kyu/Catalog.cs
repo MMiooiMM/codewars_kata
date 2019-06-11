@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Kata._6kyu
 {
+    //https://www.codewars.com/kata/59d9d8cb27ee005972000045
     public class Catalog
     {
         public static string _Catalog(string s, string article)

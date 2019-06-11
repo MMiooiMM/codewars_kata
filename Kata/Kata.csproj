@@ -71,6 +71,7 @@
     <Compile Include="5kyu\Number_of_trailing_zeros_of_N.cs" />
     <Compile Include="5kyu\PaginationHelper.cs" />
     <Compile Include="5kyu\Primes_in_numbers.cs" />
+    <Compile Include="5kyu\RGB_To_Hex_Conversion.cs" />
     <Compile Include="5kyu\Rot13.cs" />
     <Compile Include="5kyu\Simple_Fun_Runners_Meetings.cs" />
     <Compile Include="5kyu\Valid_Parentheses.cs" />

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-
-namespace Kata._5kyu
+﻿namespace Kata._5kyu
 {
     //https://www.codewars.com/kata/number-of-trailing-zeros-of-n
     public class Number_of_trailing_zeros_of_N
