@@ -10,6 +10,26 @@ namespace UnitTestProject
     public class _6kyu_Test
     {
         [TestMethod]
+        public void Sums_of_Parts_Test()
+        {
+            var actual = Sums_of_Parts.PartsSums(new int[] { });
+            var expected = new int[] { 0 };
+            Assert.IsTrue(TestHelper.ArrayAreEqual(actual, expected));
+
+            actual = Sums_of_Parts.PartsSums(new int[] { 0, 1, 3, 6, 10 });
+            expected = new int[] { 20, 20, 19, 16, 10, 0 };
+            Assert.IsTrue(TestHelper.ArrayAreEqual(actual, expected));
+
+            actual = Sums_of_Parts.PartsSums(new int[] { 1, 2, 3, 4, 5, 6 });
+            expected = new int[] { 21, 20, 18, 15, 11, 6, 0 };
+            Assert.IsTrue(TestHelper.ArrayAreEqual(actual, expected));
+
+            actual = Sums_of_Parts.PartsSums(new int[] { 744125, 935, 407, 454, 430, 90, 144, 6710213, 889, 810, 2579358 });
+            expected = new int[] { 10037855, 9293730, 9292795, 9292388, 9291934, 9291504, 9291414, 9291270, 2581057, 2580168, 2579358, 0 };
+            Assert.IsTrue(TestHelper.ArrayAreEqual(actual, expected));
+        }
+
+        [TestMethod]
         public void Bit_Counting_Test()
         {
             var actual = Bit_Counting.CountBits(1);

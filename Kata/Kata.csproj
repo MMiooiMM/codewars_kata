@@ -113,6 +113,7 @@
     <Compile Include="6kyu\Sort_the_odd.cs" />
     <Compile Include="6kyu\Srot_the_inner_ctonnet_in_dsnnieedcg_oredr.cs" />
     <Compile Include="6kyu\String_average.cs" />
+    <Compile Include="6kyu\Sums_of_Parts.cs" />
     <Compile Include="6kyu\Sum_of_Digits_Digital_Root.cs" />
     <Compile Include="6kyu\The_Supermarket_Queue.cs" />
     <Compile Include="6kyu\Tortoise_racing.cs" />
