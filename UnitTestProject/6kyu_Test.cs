@@ -10,6 +10,30 @@ namespace UnitTestProject
     public class _6kyu_Test
     {
         [TestMethod]
+        public void Stop_gninnipS_My_sdroW_Test()
+        {
+            var actual = Stop_gninnipS_My_sdroW.SpinWords("Hey fellow warriors");
+            var expected = "Hey wollef sroirraw";
+            Assert.AreEqual(actual, expected);
+
+            actual = Stop_gninnipS_My_sdroW.SpinWords("This is a test");
+            expected = "This is a test";
+            Assert.AreEqual(actual, expected);
+
+            actual = Stop_gninnipS_My_sdroW.SpinWords("This is another test");
+            expected = "This is rehtona test";
+            Assert.AreEqual(actual, expected);
+
+            actual = Stop_gninnipS_My_sdroW.SpinWords("You are almost to the last test");
+            expected = "You are tsomla to the last test";
+            Assert.AreEqual(actual, expected);
+
+            actual = Stop_gninnipS_My_sdroW.SpinWords("Just kidding there is still one more");
+            expected = "Just gniddik ereht is llits one more";
+            Assert.AreEqual(actual, expected);
+        }
+
+        [TestMethod]
         public void Sums_of_Parts_Test()
         {
             var actual = Sums_of_Parts.PartsSums(new int[] { });
