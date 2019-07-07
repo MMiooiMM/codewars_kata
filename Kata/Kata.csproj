@@ -89,6 +89,7 @@
     <Compile Include="6kyu\Convert_string_to_camel_case.cs" />
     <Compile Include="6kyu\Counting_Duplicates.cs" />
     <Compile Include="6kyu\Create_Phone_Number.cs" />
+    <Compile Include="6kyu\Data_compression_using_run_length_encoding.cs" />
     <Compile Include="6kyu\Data_Reverse.cs" />
     <Compile Include="6kyu\Detect_Pangram.cs" />
     <Compile Include="6kyu\Duplicate_Encoder.cs" />
