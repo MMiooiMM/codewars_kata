@@ -25,6 +25,7 @@ namespace Kata._5kyu
                             staircases = j;
                             isBotton = false;
                             break;
+
                         case 2:
                             position = j;
                             isStart = true;
@@ -72,6 +73,7 @@ namespace Kata._5kyu
             return result.ToArray();
         }
     }
+
     public class Car_Park_Escape_Clever
     {
         public static string[] escape(int[,] carpark)

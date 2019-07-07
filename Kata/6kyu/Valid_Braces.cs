@@ -24,6 +24,7 @@ namespace Kata._6kyu
                         if (s != "()" && s != "[]" && s != "{}")
                             return false;
                         break;
+
                     default:
                         s1.Push(brace);
                         break;

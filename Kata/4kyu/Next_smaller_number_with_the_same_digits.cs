@@ -108,7 +108,6 @@ namespace Kata._4kyu
             if (output.ToString().Length < a.Length) return -1;
 
             return output;
-
         }
     }
 }

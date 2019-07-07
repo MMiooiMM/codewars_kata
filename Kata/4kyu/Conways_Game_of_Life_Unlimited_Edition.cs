@@ -13,7 +13,8 @@
             }
             return (result);
         }
-        static int[,] Next(int[,] cells)
+
+        private static int[,] Next(int[,] cells)
         {
             int maxRow = cells.GetLength(0) + 2;
             int maxCol = cells.GetLength(1) + 2;
@@ -36,9 +37,11 @@
                         case 3:
                             Next[i, j] = 1;
                             break;
+
                         case 2:
                             Next[i, j] = dummy[i, j];
                             break;
+
                         default:
                             Next[i, j] = 0;
                             break;
@@ -51,6 +54,7 @@
             }
             return Next;
         }
+
         public static int neighbours(int[,] cells, int row, int col)
         {
             int lives = 0;
@@ -66,6 +70,7 @@
             lives += (row != maxrow && col != maxcol) ? cells[row + 1, col + 1] : 0;
             return lives;
         }
+
         public static int[,] Check(int[,] cells)
         {
             int count = 0;

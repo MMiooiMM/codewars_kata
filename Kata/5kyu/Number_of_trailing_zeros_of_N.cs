@@ -6,8 +6,8 @@
         public static int TrailingZeros(int n)
         {
             int count = 0;
-            while (n > 1)            
-                count += (int)(n /= 5);            
+            while (n > 1)
+                count += n /= 5;
             return count;
         }
     }

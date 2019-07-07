@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Kata._7kyu;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Kata._7kyu;
+using System;
 
 namespace UnitTestProject
 {
@@ -10,7 +10,7 @@ namespace UnitTestProject
         [TestMethod]
         public void Parts_of_a_list_Test()
         {
-            String[] a = new String[] { "I", "wish", "I", "hadn't", "come" };            
+            String[] a = new String[] { "I", "wish", "I", "hadn't", "come" };
             var actual = Parts_of_a_list.Partlist(a); // True
             String[][] expected = new String[][] {
                  new String[] { "I", "wish I hadn't come" },
@@ -20,6 +20,7 @@ namespace UnitTestProject
             };
             Assert.AreEqual(TestHelper.Array2DToString(expected), TestHelper.Array2DToString(actual));
         }
+
         [TestMethod]
         public void Parts_of_a_list_Linq_Test()
         {

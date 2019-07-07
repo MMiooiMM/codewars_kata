@@ -20,13 +20,12 @@ namespace Kata._6kyu
             return data == null ? -1 : data.Select(x => (x - mean) * (x - mean)).Sum() / data.Count();
         }
 
-        public static IEnumerable<double> GetRainfall(string town, string strng) 
+        public static IEnumerable<double> GetRainfall(string town, string strng)
             => strng.Split('\n')
             .Where(x => x.Split(':')[0].Contains(town))
             .SingleOrDefault()
             ?.Split(':')[1]
             .Split(',')
             .Select(x => double.Parse(x.Split(' ')[1]));
-
     }
 }

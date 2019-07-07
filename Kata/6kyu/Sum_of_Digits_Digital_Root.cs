@@ -5,7 +5,7 @@
     {
         public static int DigitalRoot(long n)
         {
-            while(n > 10)
+            while (n > 10)
             {
                 long sum = 0;
                 while (n > 0)

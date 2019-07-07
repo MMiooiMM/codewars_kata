@@ -14,11 +14,12 @@ namespace Kata._6kyu
                && a.Select(x => x * x).Sum() == b.Sum();
         }
     }
+
     public class Are_they_the_same_Best_Practices
     {
         public static bool comp(int[] a, int[] b)
         {
-            return !(a == null || b == null) 
+            return !(a == null || b == null)
                 && a.Select(x => x * x).OrderBy(x => x).SequenceEqual(b.OrderBy(x => x));
         }
     }

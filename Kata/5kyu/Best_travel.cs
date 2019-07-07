@@ -58,6 +58,7 @@ namespace Kata._5kyu
               ls.Skip(i + 1)
                 .Combinations(k - 1)
                 .Select(c => (new[] { e }).Concat(c)));
+
         // 傳回自身與排序在後的所有元素組合直到 k = 0 時傳回空二維數列
     }
 

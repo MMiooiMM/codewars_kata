@@ -6,14 +6,13 @@ namespace Kata._5kyu
     //https://www.codewars.com/kata/515bb423de843ea99400000a
     public class PaginationHelper<T>
     {
-        IList<T> _collection;
-        int _itemsPerPage;
+        private IList<T> _collection;
+        private readonly int _itemsPerPage;
 
         public PaginationHelper(IList<T> collection, int itemsPerPage)
         {
             _collection = collection;
             _itemsPerPage = (itemsPerPage < 0) ? 0 : itemsPerPage;
-
         }
 
         public int ItemCount

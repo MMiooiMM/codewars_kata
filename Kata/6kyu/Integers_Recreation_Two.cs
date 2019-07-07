@@ -12,7 +12,7 @@ namespace Kata._6kyu
             var n = (Math.Pow(a, 2) + Math.Pow(b, 2)) * (Math.Pow(c, 2) + Math.Pow(d, 2));
             var values = Enumerable.Range(0, (int)Math.Sqrt(n) + 1).Select(x => Math.Sqrt(n - Math.Pow(x, 2))).Where(x => x == (int)x).ToList();
             var count = values.Count;
-            if(count == 0)
+            if (count == 0)
             {
                 return null;
             }

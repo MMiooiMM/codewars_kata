@@ -25,7 +25,6 @@ namespace Kata._4kyu
             return result.Min();
         }
 
-
         public static List<int> Primes(int number)
         {
             List<int> primes = new List<int>();

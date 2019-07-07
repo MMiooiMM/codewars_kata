@@ -9,6 +9,7 @@ namespace Kata._5kyu
         {
             return ConvertHex(r) + ConvertHex(g) + ConvertHex(b);
         }
+
         public static string ConvertHex(int value) => Convert.ToString((value < 0 ? 0 : value > 255 ? 255 : value), 16).ToUpper().PadLeft(2, '0');
     }
 }

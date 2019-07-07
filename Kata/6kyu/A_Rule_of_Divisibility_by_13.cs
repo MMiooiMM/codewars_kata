@@ -47,6 +47,7 @@ namespace Kata._6kyu
     public class A_Rule_of_Divisibility_by_13_Clever
     {
         public static int[] rl = new int[] { 1, 10, 9, 12, 3, 4 };
+
         public static long Thirt(long n)
         {
             long rs = n.ToString().Reverse().Select((x, i) => rl[i % 6] * (x - 48)).Sum();

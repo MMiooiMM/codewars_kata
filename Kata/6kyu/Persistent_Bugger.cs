@@ -13,8 +13,8 @@ namespace Kata._6kyu
             {
                 int tmp = 1;
                 int length = (int)(Math.Log10(n));
-                for (int i = 0; i <= length; i++)                
-                    tmp *= Int32.Parse(n.ToString()[i].ToString());                
+                for (int i = 0; i <= length; i++)
+                    tmp *= Int32.Parse(n.ToString()[i].ToString());
                 n = tmp;
                 result++;
             }

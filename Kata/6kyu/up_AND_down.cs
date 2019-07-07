@@ -31,7 +31,7 @@ namespace Kata._6kyu
                     ls[i] = ls[i].ToUpper();
                 }
             }
-            ls[ls.Length - 1] = ((ls.Length - 1) % 2 == 0) ? ls[ls.Length - 1] = ls[ls.Length - 1].ToLower(): ls[ls.Length - 1] = ls[ls.Length - 1].ToUpper();
+            ls[ls.Length - 1] = ((ls.Length - 1) % 2 == 0) ? ls[ls.Length - 1] = ls[ls.Length - 1].ToLower() : ls[ls.Length - 1] = ls[ls.Length - 1].ToUpper();
             return string.Join(" ", ls);
         }
 

@@ -7,10 +7,10 @@ namespace Kata._6kyu
     {
         public static int Find(int[] integers)
         {
-            if (integers.Where(x => x % 2 == 0).Count() == 1)            
-                return integers.Where(x => x % 2 == 0).Single();            
-            else            
-                return integers.Where(x => x % 2 == 1).Single();            
+            if (integers.Where(x => x % 2 == 0).Count() == 1)
+                return integers.Where(x => x % 2 == 0).Single();
+            else
+                return integers.Where(x => x % 2 == 1).Single();
         }
     }
 }

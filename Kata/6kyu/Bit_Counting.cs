@@ -9,13 +9,14 @@ namespace Kata._6kyu
         public static int CountBits(int n)
         {
             int count = 0;
-            while(n >= 1)
+            while (n >= 1)
             {
                 count += (n % 2);
                 n /= 2;
             }
             return count;
         }
+
         public static int CountBits_Linq(int n)
         {
             return Convert.ToString(n, 2).Count(x => x == '1');

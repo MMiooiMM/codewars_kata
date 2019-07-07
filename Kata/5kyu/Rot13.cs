@@ -3,7 +3,7 @@
 namespace Kata._5kyu
 {
     //https://www.codewars.com/kata/530e15517bc88ac656000716
-    class Rot13
+    internal class Rot13
     {
         public static string _Rot13(string message) => string.Join("",
             message.Select(x => (x < 65 || x > 122) || (x.ToString().ToUpper() == x.ToString().ToLower()) ? x

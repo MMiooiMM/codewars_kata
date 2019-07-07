@@ -19,7 +19,6 @@ namespace Kata._6kyu
             str = str.Replace("w", "9").Replace("x", "9").Replace("y", "9").Replace("z", "9");
             return str;
         }
-
     }
 
     public class Mr_Safetys_treasures_Clever

@@ -22,6 +22,7 @@ namespace Kata._4kyu
             }
             return result * 2 - 10 + Zero - (x - 1) * 10;
         }
+
         public static BigInteger[] Next(BigInteger[] current)
         {
             BigInteger[] result = new BigInteger[10];

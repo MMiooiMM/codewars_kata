@@ -16,8 +16,8 @@ namespace Kata._6kyu
                 if (match)
                 {
                     match = vowel.Contains(word[i + 1]);
-                    if (!match)                    
-                        result += "ka";                    
+                    if (!match)
+                        result += "ka";
                 }
             }
             result += word.Substring(word.Length - 1, 1);

@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UnitTestProject
 {
@@ -27,7 +24,7 @@ namespace UnitTestProject
         {
             if (Arr1.Count() != Arr2.Count())
                 return false;
-            for(int i = 0; i < Arr1.Count(); i++)
+            for (int i = 0; i < Arr1.Count(); i++)
             {
                 if (Arr1[i].ToString() != Arr2[i].ToString())
                     return false;

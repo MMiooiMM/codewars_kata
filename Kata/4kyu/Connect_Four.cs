@@ -5,8 +5,9 @@ namespace Kata._4kyu
     //https://www.codewars.com/kata/56882731514ec3ec3d000009
     public class Connect_Four
     {
-        static string[,] piecesPositionArray;
-        static bool IsWin;
+        private static string[,] piecesPositionArray;
+        private static bool IsWin;
+
         public static string WhoIsWinner(List<string> piecesPositionList)
         {
             piecesPositionArray = new string[7, 6];
@@ -19,7 +20,8 @@ namespace Kata._4kyu
             }
             return "Draw";
         }
-        static void Move(string piece)
+
+        private static void Move(string piece)
         {
             var position = piece.Split('_')[0];
             var player = piece.Split('_')[1];
@@ -29,21 +31,27 @@ namespace Kata._4kyu
                 case "A":
                     row = 0;
                     break;
+
                 case "B":
                     row = 1;
                     break;
+
                 case "C":
                     row = 2;
                     break;
+
                 case "D":
                     row = 3;
                     break;
+
                 case "E":
                     row = 4;
                     break;
+
                 case "F":
                     row = 5;
                     break;
+
                 case "G":
                     row = 6;
                     break;
@@ -54,17 +62,19 @@ namespace Kata._4kyu
             piecesPositionArray[row, col] = player;
             Check(row, col);
         }
-        static int Next(int row)
+
+        private static int Next(int row)
         {
             int result = 0;
             for (; result < 6; result++)
             {
                 if (piecesPositionArray[row, result] == null)
-                    return result;                
+                    return result;
             }
             return -1;
         }
-        static void Check(int row, int col)
+
+        private static void Check(int row, int col)
         {
             int count = 0;
             string tmp = "tmp";

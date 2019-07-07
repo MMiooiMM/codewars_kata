@@ -1,6 +1,5 @@
-﻿using System;
+﻿using Kata._4kyu;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Kata._4kyu;
 
 namespace UnitTestProject
 {

@@ -14,10 +14,10 @@ namespace Kata._6kyu
                 int b = 0;
                 for (int j = 0; j < arr.Count(); j++)
                 {
-                    if (j < i)                    
-                        a += arr[j];                    
-                    else if (j > i)                    
-                        b += arr[j];                    
+                    if (j < i)
+                        a += arr[j];
+                    else if (j > i)
+                        b += arr[j];
                 }
                 if (a == b)
                 {

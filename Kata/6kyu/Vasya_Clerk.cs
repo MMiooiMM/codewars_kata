@@ -9,8 +9,8 @@
             int _50Count = 0;
             foreach (int now in peopleInLine)
             {
-                if (now == 25)                
-                    _25Count += 1;                
+                if (now == 25)
+                    _25Count += 1;
                 else if (now == 50)
                 {
                     _50Count += (_25Count >= 1) ? 1 : -1;

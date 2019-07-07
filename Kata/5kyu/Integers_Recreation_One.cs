@@ -13,8 +13,8 @@ namespace Kata._5kyu
             for (long i = m; i <= n; i++)
             {
                 long sum = 0;
-                for (long j = 1; j <= i; j++)                
-                    sum += (i % j == 0) ? (long)Math.Pow(j, 2) : 0;                
+                for (long j = 1; j <= i; j++)
+                    sum += (i % j == 0) ? (long)Math.Pow(j, 2) : 0;
                 if (Math.Sqrt(sum) % 1 == 0)
                     result.Add(i, sum);
             }

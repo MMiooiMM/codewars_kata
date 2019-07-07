@@ -16,6 +16,7 @@
             return result;
         }
     }
+
     public class Node
     {
         public int Data { get; private set; }

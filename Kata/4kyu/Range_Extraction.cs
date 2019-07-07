@@ -23,7 +23,7 @@ namespace Kata._4kyu
                     }
                     else
                     {
-                        if(prev == args[element.index - 1])
+                        if (prev == args[element.index - 1])
                         {
                             result.Add(prev + "");
                             result.Add(args[element.index] + "");
@@ -31,7 +31,7 @@ namespace Kata._4kyu
                         else
                         {
                             result.Add(prev + "-" + args[element.index]);
-                        }                        
+                        }
                     }
                     prev = (element.index + 1) == args.Length ? 0 : args[element.index + 1];
                 }

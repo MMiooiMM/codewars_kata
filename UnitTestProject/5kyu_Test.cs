@@ -1,6 +1,5 @@
-﻿using System;
+﻿using Kata._5kyu;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Kata._5kyu;
 using System.Collections.Generic;
 
 namespace UnitTestProject
@@ -19,6 +18,7 @@ namespace UnitTestProject
             Assert.AreEqual("90C3D4", RGB_To_Hex_Conversion.Rgb(144, 195, 212));
             Assert.AreEqual("D4350C", RGB_To_Hex_Conversion.Rgb(212, 53, 12));
         }
+
         [TestMethod]
         public void Weight_for_weight_Test()
         {

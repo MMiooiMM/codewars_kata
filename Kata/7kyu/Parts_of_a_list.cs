@@ -18,7 +18,7 @@ namespace Kata._7kyu
         }
 
         public static string[][] Partlist_Linq(string[] arr)
-        {            
+        {
             return Enumerable.Range(0, arr.Length - 1).Select(i =>
                new string[] { string.Join(" ", arr.Take(i + 1)), string.Join(" ", arr.Skip(i + 1)) }).ToArray();
         }

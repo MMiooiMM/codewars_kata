@@ -19,9 +19,9 @@ namespace Kata._5kyu
             {
                 int m = l.Where(x => x <= c).OrderByDescending(x => x).FirstOrDefault();
                 if (m == 0)
-                    result += (char)l.Max() + (c - l.Max() + 27).ToString();                
-                else                
-                    result += (char)m + (c - m + 1).ToString();  
+                    result += (char)l.Max() + (c - l.Max() + 27).ToString();
+                else
+                    result += (char)m + (c - m + 1).ToString();
             }
             return result;
         }

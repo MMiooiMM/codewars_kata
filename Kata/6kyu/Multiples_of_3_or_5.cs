@@ -6,9 +6,9 @@
         public static int Solution(int value)
         {
             int result = 0;
-            for (int i = 3; i < value; i++)            
+            for (int i = 3; i < value; i++)
                 if (i % 3 == 0 || i % 5 == 0)
-                    result += i;            
+                    result += i;
             return result;
         }
     }

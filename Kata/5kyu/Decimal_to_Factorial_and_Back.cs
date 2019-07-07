@@ -24,19 +24,20 @@ namespace Kata._5kyu
             }
             return result += "0";
         }
+
         public static long factString2Dec(string str)
         {
             long result = 0;
             var count = str.Length - 1;
             long max = 1;
-            for(long i = 1; i <= count; i++)
+            for (long i = 1; i <= count; i++)
             {
                 max *= i;
             }
             foreach (var c in str)
             {
                 var val = 0;
-                if(c >= 65)
+                if (c >= 65)
                 {
                     val = c - 55;
                 }
@@ -51,6 +52,7 @@ namespace Kata._5kyu
             return result;
         }
     }
+
     public class Decimal_to_Factorial_and_Back_Best_Practices
     {
         private const string _CharList = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -78,7 +80,7 @@ namespace Kata._5kyu
             {
                 for (int i = 0; i < str.Length; i++)
                 {
-                    result += (long)_CharList.IndexOf(str[i]);
+                    result += _CharList.IndexOf(str[i]);
 
                     long factorial = str.Length - i - 1;
                     if (factorial > 0L)
@@ -89,4 +91,4 @@ namespace Kata._5kyu
             return result;
         }
     }
-    }
+}

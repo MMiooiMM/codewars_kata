@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
-
-using System;
 
 namespace Kata._4kyu
 {
@@ -22,18 +21,22 @@ namespace Kata._4kyu
             }
             return string.Join("", plist.OrderBy(x => x).Select(x => "(" + x + " " + lst.Where(o => CheckFactor(o, x)).Sum() + ")"));
         }
+
         public static bool CheckPrime(IEnumerable<int> lst, int p)
         {
             return (p == 2) ? true : Enumerable.Range(2, p - 1).Where(x => !CheckFactor(x, lst)).Any(o => o == p);
         }
+
         public static bool CheckFactor(int i, int f)
         {
             return i % f == 0;
         }
+
         public static bool CheckFactor(IEnumerable<int> lst, int f)
         {
             return lst.Any(x => x % f == 0);
         }
+
         public static bool CheckFactor(int f, IEnumerable<int> lst)
         {
             return lst.Any(x => f % x == 0);

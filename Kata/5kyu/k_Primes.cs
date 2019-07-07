@@ -16,17 +16,18 @@ namespace Kata._5kyu
             }
             return result.Where(x => Find_k(x) == k).ToArray();
         }
+
         public static int Puzzle(int s)
         {
             var a = CountKprimes(1, 0, s);
             var b = CountKprimes(3, 0, s);
             var c = CountKprimes(7, 0, s);
             var result = 0;
-            foreach(var aa in a)
+            foreach (var aa in a)
             {
-                foreach(var bb in b)
+                foreach (var bb in b)
                 {
-                    foreach(var cc in c)
+                    foreach (var cc in c)
                     {
                         if (aa + bb + cc == s)
                             result++;
@@ -35,6 +36,7 @@ namespace Kata._5kyu
             }
             return result;
         }
+
         public static int Find_k(long n)
         {
             var res = 0;

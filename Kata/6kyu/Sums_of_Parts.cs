@@ -10,7 +10,7 @@ namespace Kata._6kyu
             var total = ls.Sum();
             var result = new int[ls.Length + 1];
             result[0] = total;
-            for(int i = 0; i < ls.Length; i++)
+            for (int i = 0; i < ls.Length; i++)
             {
                 total = total - ls[i];
                 result[i + 1] = total;

@@ -4,11 +4,10 @@ using System.Linq;
 namespace Kata._6kyu
 {
     //https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991
-    class Reverse_or_rotate
+    internal class Reverse_or_rotate
     {
         public static string RevRot(string strng, int sz)
         {
-
             if (sz <= 0 || string.IsNullOrEmpty(strng))
                 return "";
             var result = string.Empty;
@@ -21,7 +20,8 @@ namespace Kata._6kyu
             }
             return result;
         }
-        static IEnumerable<string> Split(string str, int sz)
+
+        private static IEnumerable<string> Split(string str, int sz)
         {
             var index = 0;
             var Max = str.Length - sz;

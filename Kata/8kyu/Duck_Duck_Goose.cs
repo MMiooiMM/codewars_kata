@@ -8,6 +8,7 @@
             return players[(goose - 1) % players.Length].Name;
         }
     }
+
     public class Player
     {
         public string Name { get; set; }
