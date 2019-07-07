@@ -2,9 +2,9 @@
 
 namespace Kata._6kyu
 {
+    //https://www.codewars.com/kata/5264d2b162488dc400000001
     public class Stop_gninnipS_My_sdroW
     {
-        //https://www.codewars.com/kata/5264d2b162488dc400000001
         public static string SpinWords(string sentence)
         {
             return string.Join(" ",
